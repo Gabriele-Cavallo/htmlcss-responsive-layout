@@ -35,7 +35,6 @@ body{
 }
 
 .card{
-    height: 100%;
     background-color: transparent;
     border-radius: 25px;
     padding: 40px 25px;
@@ -71,7 +70,7 @@ img{
 }
 .grow{
     flex-grow: 1;
-    padding-right: 22px;
+    padding-right: 23px;
 }
 .column{
     flex-direction: column;
@@ -115,12 +114,14 @@ img{
 
 .header{
     background-color: #0084fd;
-    padding: 20px 10px;
+    padding: 20px 30px;
 }
 .respons-menu-hamb{
     display: none;
 }
 /* #region ---- Header-Media-Query ---- */
+
+/* Tablet+Mobile */
 
 @media screen and (max-width: 992px){
     .respons-menu{
@@ -147,7 +148,7 @@ img{
 .intro .card{
     background-color: #b5ddff;
 }
-.intro h2 , i:not(.fa-apple){
+.intro h2 , .intro i:not(.fa-apple){
     color: #0084fd;
 }
 .intro p{
@@ -155,8 +156,11 @@ img{
     font-weight: 700;
     line-height: 2;
 }
-.col h2, p{
+.col h2, .col p{
     margin-bottom: 40px;
+}
+.grow .card{
+    height: 100%;
 }
 .grow .card{
     padding-bottom: 0;
@@ -165,6 +169,37 @@ img{
     font-size: 50px;
     margin-bottom: 40px;
 }
+
+/* #region ---- Intro Section-Media-Query---- */
+
+/* Tablet */
+
+@media screen and (max-width:992px){
+    main{
+        padding: 0 30px;
+    }
+    .column{
+        width: 100%;
+    }
+    .card{
+        padding: 40px 25px 0;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width:768px){
+    .intro .col{
+        width: 100%;
+    }
+    .intro img{
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+    
+}
+
+/* #endregion ---- Intro Section-Media-Query---- */
 
 /* #endregion ---- Intro Section ---- */
 
