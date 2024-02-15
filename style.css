@@ -11,6 +11,9 @@
 body{
     font-family: 'PT Sans', sans-serif;
 }
+body p{
+    line-height: 2;
+}
 .pt-sans-regular {
     font-family: "PT Sans", sans-serif;
     font-weight: 400;
@@ -266,4 +269,40 @@ img{
 /* #endregion ---- Planning Section-Media-Query---- */
 
 /* #endregion ---- Planning Section ---- */
+
+/* #region ---- Testimonials Section ---- */
+
+.testimonials{
+    padding: 40px 30px 60px;
+}
+.testimonials h2{
+    color: #9792e4;
+    font-size: 40px;
+}
+.testimonials h4{
+    font-weight: 400;
+}
+.testimonials .text-align > *{
+    margin-bottom: 20px;
+}
+.testimonials .card{
+    background-color: #9792e4;
+    color: white;
+    display: flex;
+    margin-bottom: 20px;
+}
+.testimonials img{
+    border-radius: 50%;
+    max-width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.testimonials .row{
+    padding: 0 40px;
+}
+.testimonials p{
+    padding-bottom: 20px;
+}
+
+/* #endregion ---- Testimonials Section ---- */
 
