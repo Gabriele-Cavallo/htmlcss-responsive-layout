@@ -56,6 +56,16 @@ h2{
 img{
     width: 100%;
 }
+.col-30{
+    width: 30%;
+}
+.col-70{
+    width: 70%;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
 
 /* #endregion ---- General ---- */
 
@@ -394,4 +404,43 @@ img{
 /* #endregion ---- Benefits Section-Media-Query---- */
 
 /* #endregion ---- Benefits Section ---- */
+
+/* #region ---- Abaut Us Section ---- */
+
+.abaut-us{
+    padding: 40px 30px 60px;
+}
+.abaut-us h2,
+.abaut-us h3{
+    color: #9792e4;
+}
+.abaut-us h3{
+    font-size:25px;
+    margin: 20px 0;
+}
+.abaut-us .col-70{
+    padding: 0 50px 0 100px;
+}
+.abaut-us .col-30{
+    padding: 0 40px;
+    position: relative;
+}
+.abaut-us .col-70 > *{
+    margin-bottom: 40px;
+}
+.abaut-us .col-30 > i{
+    color: #9792e4;
+    font-size: 60px;
+    position: absolute;
+    right: 50px;
+}
+.abaut-us img{
+    border-radius: 50%;
+    max-width: 250px;
+    height: 250px;
+    object-fit: cover;
+    text-align: center;
+}
+
+/* #endregion ---- Abaut Us Section ---- */
 
