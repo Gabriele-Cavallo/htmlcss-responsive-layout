@@ -227,6 +227,9 @@ button a{
     .intro .grow{
         padding-right: 0;
     }
+    .intro h2{
+        font-size: 25px;
+    }
     
 }
 
@@ -283,9 +286,12 @@ button a{
 
 /* Mobile */
 
-@media screen and (max-width:992px){
+@media screen and (max-width:768px){
     .planning .col{
         padding: 0 30px;
+    }
+    .planning h2{
+        font-size: 25px;
     }
 
 }
@@ -479,7 +485,7 @@ button a{
 /* Mobile */
 
 @media screen and (max-width:768px){
-    .row{
+    .abaut-us .row{
         display: block;
     }
     .abaut-us .col-30, .abaut-us .col-70{
@@ -489,6 +495,9 @@ button a{
     .abaut-us .anchor > i{
         left: 160px;
     }
+    .abaut-us .row .col-70 h2{
+        font-size: 40px;
+    }
    
 }
 
@@ -496,42 +505,78 @@ button a{
 
 /* #endregion ---- Abaut Us Section ---- */
 
-/* #region ---- Start Us Section ---- */
+/* #region ---- Get Start Section ---- */
 
-.start .container > *{
+.get-start .container > *{
     margin: 20px 0;
 }
-.start{
+.get-start{
     background-color: #9792e4;
     padding: 60px 30px;
     color: white;
 }
-.start h2{
+.get-start h2{
     font-size: 60px;
     color: #fdc15f;
 }
-.start h3{
+.get-start h3{
     font-size: 40px;
 }
-.start h4{
+.get-start h4{
     color: #cbc9f1;
 }
-.start button a{
+.get-start button a{
     color: #9792e4;
     font-weight: 700;
     font-size: 20px;
 }
-.start .row{
+.get-start .row{
     gap: 20px;
 }
-.start a{
+.get-start a{
     color: white;
 }
 .class-xx{
     text-decoration: none;
 }
+/* #region ---- Get Start Section-Media-Query---- */
 
-/* #endregion ---- Start Us Section ---- */
+/* Tablet */
+
+@media screen and (max-width:992px){
+  .get-start{
+    padding: 30px;
+  }
+  .get-start h2{
+    font-size: 70px;
+  }
+  .get-start p{
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+}
+
+/* Mobile */
+
+@media screen and (max-width:768px){
+
+    .get-start .container .row{
+        flex-wrap: nowrap;
+    }
+    .get-start .privacy{
+        word-break: normal;
+    }
+    .get-start .jst-cnt small:first-child,
+    .get-start .class-xx{
+        white-space: nowrap;
+    }
+}
+
+/* #endregion ---- Get Start Section-Media-Query---- */
+
+/* #endregion ---- Get Start Section ---- */
 
 /* #region ---- Footer ---- */
 
@@ -548,3 +593,21 @@ button a{
 }
 
 /* #endregion ---- Footer ---- */
+
+/* #region ---- Generic-Media-Query---- */
+
+/* Mobile */
+
+@media screen and (max-width:768px){
+    h2{
+        font-size: 30px;
+    }
+    .container .row .card h2{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 15px;
+    }
+}
+
+/* #endregion ---- Generic-Media-Query---- */
