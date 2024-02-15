@@ -219,14 +219,13 @@ img{
 }
 .plan{
     padding-bottom: 140px;
-    position: relative;
-    right: 33px;
+    padding-right: 33px;
 }
 .planning .card{
     background-color: white;
+    color: black;
     position: relative;
     left: 33px;
-    color: black;
 }
 .planning .text-align h2{
     margin-top: 30px;
@@ -246,10 +245,23 @@ img{
         width: 100%;
         padding-bottom: 30px;
     }
+    .planning .card{
+        left: 0;
+    }
+    .plan{
+        padding-right: 0;
+    }
     
 }
 
 /* Mobile */
+
+@media screen and (max-width:992px){
+    .planning .col{
+        padding: 0 30px;
+    }
+
+}
 
 /* #endregion ---- Planning Section-Media-Query---- */
 
