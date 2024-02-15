@@ -145,7 +145,7 @@ img{
 /* #region ---- Intro Section ---- */
 
 .intro{
-    padding: 50px 0;
+    padding: 50px 30px;
 }
 .intro .col{
     width: 32%;
@@ -181,9 +181,7 @@ img{
 /* Tablet */
 
 @media screen and (max-width:992px){
-    main{
-        padding: 0 30px;
-    }
+    
     .column{
         width: 100%;
     }
@@ -239,6 +237,21 @@ img{
 .radius{
     margin-top: 40px;
 }
+
+/* #region ---- Planning Section-Media-Query---- */
+
+/* Tablet */
+@media screen and (max-width:992px){
+    .planning .half-col{
+        width: 100%;
+        padding-bottom: 30px;
+    }
+    
+}
+
+/* Mobile */
+
+/* #endregion ---- Planning Section-Media-Query---- */
 
 /* #endregion ---- Planning Section ---- */
 
