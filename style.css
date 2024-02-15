@@ -24,6 +24,24 @@ body{
 
 /* #endregion ---- Typography ---- */
 
+/* #region ---- Flex-rules ---- */
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.jst-cnt{
+    justify-content: center;
+}
+.jst-btwn{
+    justify-content: space-between;
+}
+.align-item{
+    align-items: center;
+}
+
+/* #endregion ---- Flex-rules ---- */
+
 /* #region ---- Header ---- */
 
 .header{
