@@ -39,6 +39,10 @@ h2{
     max-width: 1140px;
     margin: 0 auto;
 }
+.small-container{
+    max-width: 410px;
+    margin: 0 auto;
+}
 
 .card{
     background-color: transparent;
@@ -529,3 +533,18 @@ button a{
 
 /* #endregion ---- Start Us Section ---- */
 
+/* #region ---- Footer ---- */
+
+.end{
+    background-color: #333333;
+    padding: 30px;
+    color: white;
+}
+.end a{
+    color: #837fc1;
+}
+.end .small-container #end-footer{
+    margin-bottom: 60px;
+}
+
+/* #endregion ---- Footer ---- */
