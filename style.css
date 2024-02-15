@@ -24,6 +24,30 @@ body{
 
 /* #endregion ---- Typography ---- */
 
+/* #region ---- General ---- */
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.col{
+    padding: 0 10px;
+}
+.card{
+    height: 100%;
+    background-color: transparent;
+}
+.link{
+    list-style: none;
+    gap: 30px;
+}
+.link a{
+    text-decoration: none;
+    color: white;
+}
+
+/* #endregion ---- General ---- */
+
 /* #region ---- Flex-rules ---- */
 
 .row{
@@ -44,6 +68,34 @@ body{
 }
 
 /* #endregion ---- Flex-rules ---- */
+
+/* #region ---- Buttons ---- */
+
+.btn{
+    padding: 10px 15px;
+    border: transparent;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.btn-big{
+    padding: 15px 45px;
+    color: white;
+}
+.btn-bigger{
+    padding: 30px 80px;
+    background-color: white;
+    color: #9792e4;
+}
+.btn-blue{
+    background-color: #0084fd;
+}
+.btn-purple{
+    background-color: #9792e4;
+}
+
+/* #endregion ---- Buttons ---- */
 
 /* #region ---- Header ---- */
 
@@ -69,27 +121,3 @@ body{
 
 /* #endregion ---- Header ---- */
 
-/* #region ---- General ---- */
-
-.container{
-    max-width: 1140px;
-    margin: 0 auto;
-}
-.col{
-    padding: 0 10px;
-}
-.card{
-    height: 100%;
-    background-color: transparent;
-}
-.link{
-    list-style: none;
-    gap: 30px;
-}
-.link a{
-    text-decoration: none;
-    color: white;
-}
-
-/* #endregion ---- General ---- */
-  
