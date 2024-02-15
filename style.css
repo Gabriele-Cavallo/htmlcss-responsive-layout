@@ -203,6 +203,9 @@ img{
         padding-top: 20px;
         margin: 0 auto;
     }
+    .intro .grow{
+        padding-right: 0;
+    }
     
 }
 
@@ -303,6 +306,31 @@ img{
 .testimonials p{
     padding-bottom: 20px;
 }
+
+/* #region ---- Testimonials Section-Media-Query---- */
+
+/* Tablet */
+
+@media screen and (max-width:992px){
+    .testimonials .card{
+        padding-bottom: 40px;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width:768px){
+    .testimonials .card,
+    .testimonials .row{
+        display: block;
+        text-align: center;
+    }
+    .testimonials img{
+        margin-bottom: 10px;
+    }
+}
+
+/* #endregion ---- Testimonials Section-Media-Query---- */
 
 /* #endregion ---- Testimonials Section ---- */
 
