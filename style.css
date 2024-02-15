@@ -23,4 +23,12 @@ body{
 }
 
 /* #endregion ---- Typography ---- */
+
+/* #region ---- Header ---- */
+
+.header{
+    background-color: #0084fd;
+}
+
+/* #endregion ---- Header ---- */
   
