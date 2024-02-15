@@ -370,5 +370,28 @@ img{
     color: #a3a3a3;
 }
 
+/* #region ---- Benefits Section-Media-Query---- */
+
+/* Tablet */
+
+@media screen and (max-width:992px){
+    .benefits .card{
+        width: 49%;
+        padding-bottom: 30px;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width:768px){
+    .benefits .card{
+        width: 100%;
+    }
+    .benefits{
+        padding-top: 60px;
+    }
+}
+/* #endregion ---- Benefits Section-Media-Query---- */
+
 /* #endregion ---- Benefits Section ---- */
 
