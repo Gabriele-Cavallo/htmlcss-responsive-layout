@@ -66,6 +66,9 @@ button a{
     text-decoration: none;
     color: white;
 }
+.anchor{
+    position: relative;
+}
 
 /* #endregion ---- General ---- */
 
@@ -423,16 +426,9 @@ button a{
 }
 .abaut-us .col-30{
     padding: 0 40px;
-    position: relative;
 }
 .abaut-us .col-70 > *{
     margin-bottom: 40px;
-}
-.abaut-us .col-30 > i{
-    color: #9792e4;
-    font-size: 60px;
-    position: absolute;
-    right: 50px;
 }
 .abaut-us img{
     border-radius: 50%;
@@ -441,6 +437,57 @@ button a{
     object-fit: cover;
     text-align: center;
 }
+.abaut-us .anchor > i{
+    color: #9792e4;
+    font-size: 60px;
+    position: absolute;
+    right: 20px;
+}
+
+/* #region ---- Abaut Us Section-Media-Query---- */
+
+/* Tablet */
+
+@media screen and (max-width:992px){
+    .abaut-us{
+        padding: 60px 30px 80px;
+    }
+    .abaut-us img{
+        max-width: 230px;
+        height: 230px;
+    }
+    .abaut-us h2{
+        font-size: 60px;
+    }
+    .abaut-us .col-70{
+        padding-left: 0;
+    }
+    .abaut-us .col-30{
+        padding-right: 0;
+    }
+    .abaut-us .anchor > i{
+        right: 10px;
+    }
+    
+}
+
+/* Mobile */
+
+@media screen and (max-width:768px){
+    .row{
+        display: block;
+    }
+    .abaut-us .col-30, .abaut-us .col-70{
+        width: 100%;
+        padding: 0;
+    }
+    .abaut-us .anchor > i{
+        left: 160px;
+    }
+   
+}
+
+/* #endregion ---- Abaut Us Section-Media-Query---- */
 
 /* #endregion ---- Abaut Us Section ---- */
 
