@@ -107,6 +107,12 @@ img{
 .btn-purple{
     background-color: #9792e4;
 }
+.radius{
+    border-radius: 50%;
+    border: transparent;
+    padding: 20px;
+    font-size: 20px;
+}
 
 /* #endregion ---- Buttons ---- */
 
@@ -202,4 +208,31 @@ img{
 /* #endregion ---- Intro Section-Media-Query---- */
 
 /* #endregion ---- Intro Section ---- */
+
+/* #region ---- Planning Section ---- */
+
+.planning{
+    background-color: #9792e4;
+    padding: 135px 0 60px;
+    color: white;
+}
+.planning .col{
+    padding: 0 130px 0 ;
+}
+.plan{
+    padding-bottom: 140px;
+    position: relative;
+    right: 33px;
+}
+.planning .card{
+    background-color: white;
+    position: relative;
+    left: 33px;
+    color: black;
+}
+.planning .text-align h2{
+    margin-top: 30px;
+}
+
+/* #endregion ---- Planning Section ---- */
 
