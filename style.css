@@ -162,7 +162,7 @@ img{
     font-weight: 700;
     line-height: 2;
 }
-.col h2, .col p{
+.col h2, .intro .col p{
     margin-bottom: 40px;
 }
 .grow .card{
@@ -232,6 +232,12 @@ img{
 }
 .planning .text-align h2{
     margin-top: 30px;
+}
+.planning p{
+    line-height: 2;
+}
+.radius{
+    margin-top: 40px;
 }
 
 /* #endregion ---- Planning Section ---- */
