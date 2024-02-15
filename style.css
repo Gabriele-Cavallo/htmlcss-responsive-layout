@@ -119,6 +119,7 @@ button a{
     padding: 30px 80px;
     background-color: white;
     color: #9792e4;
+    border-radius: 50px;
 }
 .btn-blue{
     background-color: #0084fd;
@@ -490,4 +491,41 @@ button a{
 /* #endregion ---- Abaut Us Section-Media-Query---- */
 
 /* #endregion ---- Abaut Us Section ---- */
+
+/* #region ---- Start Us Section ---- */
+
+.start .container > *{
+    margin: 20px 0;
+}
+.start{
+    background-color: #9792e4;
+    padding: 60px 30px;
+    color: white;
+}
+.start h2{
+    font-size: 60px;
+    color: #fdc15f;
+}
+.start h3{
+    font-size: 40px;
+}
+.start h4{
+    color: #cbc9f1;
+}
+.start button a{
+    color: #9792e4;
+    font-weight: 700;
+    font-size: 20px;
+}
+.start .row{
+    gap: 20px;
+}
+.start a{
+    color: white;
+}
+.class-xx{
+    text-decoration: none;
+}
+
+/* #endregion ---- Start Us Section ---- */
 
