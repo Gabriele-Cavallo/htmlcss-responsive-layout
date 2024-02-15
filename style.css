@@ -39,6 +39,9 @@ body{
 .align-item{
     align-items: center;
 }
+.grow{
+    flex-grow: 1;
+}
 
 /* #endregion ---- Flex-rules ---- */
 
@@ -49,4 +52,21 @@ body{
 }
 
 /* #endregion ---- Header ---- */
+
+/* #region ---- General ---- */
+
+.container{
+    max-width: 1170px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+.col{
+    padding: 0 10px;
+}
+.card{
+    height: 100%;
+    background-color: transparent;
+}
+
+/* #endregion ---- General ---- */
   
