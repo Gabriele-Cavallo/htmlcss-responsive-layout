@@ -218,6 +218,11 @@ button a{
     .intro img{
         margin-top: 30px;
     }
+    .intro h2,
+    .intro p,
+    .intro i{
+        margin-bottom: 20px;
+    }
     
 }
 
