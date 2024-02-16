@@ -239,6 +239,9 @@ button a{
     .intro p{
         font-size: 20px;
     }
+    .text-align > i{
+        font-size: 80px;
+    }
     
 }
 
@@ -441,6 +444,9 @@ button a{
     }
     .benefits h3{
         font-size: 30px;
+    }
+    .benefits p{
+        font-size: 20px;
     }
 }
 /* #endregion ---- Benefits Section-Media-Query---- */
