@@ -331,6 +331,12 @@ button a{
     .planning p{
         font-size: 20px;
     }
+    .plan{
+        padding-bottom: 70px;
+    }
+    .planning{
+        padding: 80px 0;
+    }
 
 }
 
@@ -398,6 +404,12 @@ button a{
     .testimonials h4{
         font-size: 20px;
     }
+    .testimonials .row{
+        padding: 0;
+    }
+    .testimonials{
+        padding-bottom: 80px;
+    }
 }
 
 /* #endregion ---- Testimonials Section-Media-Query---- */
@@ -464,6 +476,7 @@ button a{
     }
     .benefits p{
         font-size: 20px;
+        line-height: 1.5;
     }
 }
 /* #endregion ---- Benefits Section-Media-Query---- */
@@ -553,7 +566,7 @@ button a{
         font-size: 50px;
     }
     .abaut-us h3{
-        font-size: 40px;
+        font-size: 30px;
     }
     .abaut-us p{
         font-size: 20px;
@@ -639,6 +652,19 @@ button a{
     .get-start .class-xx{
         white-space: nowrap;
     }
+    .get-start h4{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .get-start h3{
+        font-size: 30px;
+    }
+    .get-start p{
+        width: 100%;
+    }
+    .get-start .letter-spacing{
+        letter-spacing: 3px;
+    }
 }
 
 /* #endregion ---- Get Start Section-Media-Query---- */
@@ -661,19 +687,3 @@ button a{
 }
 
 /* #endregion ---- Footer ---- */
-
-/* #region ---- Generic-Media-Query---- */
-
-/* Mobile */
-
-@media screen and (max-width:768px){
-    h2{
-        font-size: 30px;
-    }
-    
-    h3{
-        font-size: 15px;
-    }
-}
-
-/* #endregion ---- Generic-Media-Query---- */
