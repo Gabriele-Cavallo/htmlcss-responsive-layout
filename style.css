@@ -189,7 +189,7 @@ button a{
     font-weight: 700;
     line-height: 2;
 }
-.col h2, .intro .col p{
+.col h2, .intro .half-col p{
     margin-bottom: 40px;
 }
 .grow .card{
