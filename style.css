@@ -137,6 +137,9 @@ button a{
     padding: 20px;
     font-size: 20px;
 }
+.apple-store{
+    letter-spacing: 4px;
+}
 
 /* #endregion ---- Buttons ---- */
 
