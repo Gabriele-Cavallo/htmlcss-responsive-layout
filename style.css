@@ -12,7 +12,7 @@ body{
     font-family: 'PT Sans', sans-serif;
 }
 body p{
-    line-height: 2;
+    line-height: 1.5;
 }
 .pt-sans-regular {
     font-family: "PT Sans", sans-serif;
@@ -471,6 +471,9 @@ button a{
     .benefits{
         padding-top: 60px;
     }
+    .benefits h2{
+        font-size: 35px;
+    }
     .benefits h3{
         font-size: 30px;
     }
@@ -570,6 +573,9 @@ button a{
     }
     .abaut-us p{
         font-size: 20px;
+    }
+    .abaut-us button{
+        letter-spacing: 2px;
     }
    
 }
