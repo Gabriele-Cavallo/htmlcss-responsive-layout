@@ -291,6 +291,9 @@ button a{
     .plan{
         padding-right: 0;
     }
+    .plan ~ h2{
+        font-size: 60px;
+    }
     
 }
 
