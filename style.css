@@ -212,6 +212,9 @@ button a{
     .card{
         padding: 40px 25px 0;
     }
+    .intro img{
+        margin-top: 30px;
+    }
 }
 
 /* Mobile */
@@ -226,6 +229,9 @@ button a{
     }
     .intro .grow{
         padding-right: 0;
+    }
+    .half-col{
+        width: 100%;
     }
     
 }
@@ -497,7 +503,7 @@ button a{
         left: 160px;
     }
     .abaut-us .row .col-70 h2{
-        font-size: 40px;
+        font-size: 50px;
     }
    
 }
