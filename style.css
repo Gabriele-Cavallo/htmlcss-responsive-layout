@@ -190,7 +190,7 @@ button a{
     line-height: 2;
 }
 .col h2, .intro .half-col p{
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 .grow .card{
     height: 100%;
@@ -200,7 +200,7 @@ button a{
 }
 .text-align > i{
     font-size: 80px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 /* #region ---- Intro Section-Media-Query---- */
@@ -217,11 +217,6 @@ button a{
     }
     .intro img{
         margin-top: 30px;
-    }
-    .intro h2,
-    .intro p,
-    .intro i:not(.fa-apple){
-        margin-bottom: 20px;
     }
     
 }
