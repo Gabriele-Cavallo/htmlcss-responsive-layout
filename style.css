@@ -14,9 +14,6 @@ body{
 body p{
     line-height: 2;
 }
-h2{
-    /* font-size: 30px; */
-}
 .pt-sans-regular {
     font-family: "PT Sans", sans-serif;
     font-weight: 400;
@@ -175,7 +172,7 @@ button a{
 /* #region ---- Intro Section ---- */
 
 .intro{
-    padding: 50px 30px;
+    padding: 50px 30px 80px;
 }
 .intro .col{
     width: 32%;
@@ -202,7 +199,7 @@ button a{
     padding-bottom: 0;
 }
 .text-align > i{
-    font-size: 50px;
+    font-size: 80px;
     margin-bottom: 40px;
 }
 
@@ -243,9 +240,6 @@ button a{
     .intro p{
         font-size: 20px;
     }
-    .text-align > i{
-        font-size: 80px;
-    }
     
 }
 
@@ -262,6 +256,7 @@ button a{
 }
 .planning .col{
     padding: 0 130px 0 ;
+    align-items: flex-end;
 }
 .plan{
     padding-bottom: 140px;
@@ -272,10 +267,16 @@ button a{
     color: black;
     position: relative;
     left: 33px;
+    max-width: 400px;
+    border-radius: 50px;
 }
 .planning .text-align h2{
     margin-top: 30px;
     font-size: 20px;
+}
+.planning .card img{
+    max-height: 200px;
+    object-fit: contain;
 }
 .plan ~ h2{
     font-size: 30px;
@@ -285,6 +286,7 @@ button a{
 }
 .radius{
     margin-top: 40px;
+    width: 64px;
 }
 
 /* #region ---- Planning Section-Media-Query---- */
@@ -346,6 +348,7 @@ button a{
     color: white;
     display: flex;
     margin-bottom: 20px;
+    border-radius: 50px;
 }
 .testimonials img{
     border-radius: 50%;
@@ -586,6 +589,13 @@ button a{
 .class-xx{
     text-decoration: none;
 }
+.get-start p{
+    width: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
 /* #region ---- Get Start Section-Media-Query---- */
 
 /* Tablet */
@@ -631,6 +641,7 @@ button a{
     background-color: #333333;
     padding: 30px;
     color: white;
+    font-size: small;
 }
 .end a{
     color: #837fc1;
