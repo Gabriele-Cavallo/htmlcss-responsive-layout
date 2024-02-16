@@ -137,7 +137,7 @@ button a{
     padding: 20px;
     font-size: 20px;
 }
-.apple-store{
+.letter-spacing{
     letter-spacing: 4px;
 }
 
@@ -213,7 +213,7 @@ button a{
         width: 100%;
     }
     .card{
-        padding: 40px 25px 0;
+        padding: 40px 25px;
     }
     .intro img{
         margin-top: 30px;
@@ -235,6 +235,9 @@ button a{
     }
     .half-col{
         width: 100%;
+    }
+    .intro p{
+        font-size: 20px;
     }
     
 }
@@ -304,7 +307,10 @@ button a{
         padding: 0 30px;
     }
     .planning h2{
-        font-size: 25px;
+        font-size: 40px;
+    }
+    .planning p{
+        font-size: 20px;
     }
 
 }
@@ -368,6 +374,10 @@ button a{
     .testimonials img{
         margin-bottom: 10px;
     }
+    .testimonials p,
+    .testimonials h4{
+        font-size: 20px;
+    }
 }
 
 /* #endregion ---- Testimonials Section-Media-Query---- */
@@ -428,6 +438,9 @@ button a{
     }
     .benefits{
         padding-top: 60px;
+    }
+    .benefits h3{
+        font-size: 30px;
     }
 }
 /* #endregion ---- Benefits Section-Media-Query---- */
@@ -515,6 +528,12 @@ button a{
     }
     .abaut-us .row .col-70 h2{
         font-size: 50px;
+    }
+    .abaut-us h3{
+        font-size: 40px;
+    }
+    .abaut-us p{
+        font-size: 20px;
     }
    
 }
@@ -620,9 +639,7 @@ button a{
     h2{
         font-size: 30px;
     }
-    .container .row .card h2{
-        font-size: 25px;
-    }
+    
     h3{
         font-size: 15px;
     }
