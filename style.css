@@ -15,7 +15,7 @@ body p{
     line-height: 2;
 }
 h2{
-    font-size: 30px;
+    /* font-size: 30px; */
 }
 .pt-sans-regular {
     font-family: "PT Sans", sans-serif;
@@ -267,6 +267,9 @@ button a{
     margin-top: 30px;
     font-size: 20px;
 }
+.plan ~ h2{
+    font-size: 30px;
+}
 .planning p{
     line-height: 2;
 }
@@ -314,6 +317,7 @@ button a{
 }
 .testimonials h2{
     color: #9792e4;
+    font-size: 40px;
 }
 .testimonials h4{
     font-weight: 400;
@@ -380,6 +384,7 @@ button a{
 }
 .benefits h2{
     color: white;
+    font-size: 40px;
 }
 .benefits h3{
     font-size: 20px;
