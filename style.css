@@ -163,6 +163,9 @@ button a{
     .respons-menu-hamb{
         display: block;
     }
+    .header .link li #hamb{
+        font-size: 30px;
+    }
 }
 
 /* #endregion ---- Header-Media-Query ---- */
@@ -218,6 +221,7 @@ button a{
     .intro img{
         margin-top: 30px;
     }
+    
 }
 
 /* Mobile */
