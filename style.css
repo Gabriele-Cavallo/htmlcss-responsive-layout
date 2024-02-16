@@ -220,7 +220,7 @@ button a{
     }
     .intro h2,
     .intro p,
-    .intro i{
+    .intro i:not(.fa-apple){
         margin-bottom: 20px;
     }
     
