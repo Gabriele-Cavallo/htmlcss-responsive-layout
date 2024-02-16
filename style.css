@@ -299,12 +299,22 @@ button a{
     }
     .planning .card{
         left: 0;
+        max-width: 100%;
     }
     .plan{
         padding-right: 0;
     }
     .plan ~ h2{
         font-size: 60px;
+    }
+    .planning .col{
+        padding: 30px 30px 0;
+    }
+    .planning .card img{
+        max-height: 100%;
+    }
+    .planning .card h2{
+        font-size: 30px;
     }
     
 }
