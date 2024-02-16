@@ -160,8 +160,14 @@ button a{
     .respons-menu-hamb{
         display: block;
     }
-    .header .link li #hamb{
+    .header .anchor #hamb{
         font-size: 30px;
+    }
+    .header .respons-menu-hamb{
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translate(0, -50%);
     }
 }
 
