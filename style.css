@@ -221,14 +221,17 @@ button a{
 
 @media screen and (max-width:992px){
     
-    .column{
+    .intro .half-col{
         width: 100%;
     }
     .card{
         padding: 40px 25px;
     }
-    .intro img{
-        margin-top: 30px;
+    .intro .anchor img{
+        padding-top: 30px;
+        display: block;
+        position: relative;
+        left: -100px;
     }
     
 }
@@ -240,16 +243,11 @@ button a{
         width: 100%;
     }
     .intro .anchor img{
-        padding-top: 20px;
         margin: 0 auto;
-        display: block;
-        position: relative;
+        left: 0;
     }
     .intro .grow{
         padding-right: 0;
-    }
-    .half-col{
-        width: 100%;
     }
     .intro p{
         font-size: 20px;
@@ -303,6 +301,7 @@ button a{
     max-height: 50px;
     display: flex;
     margin: 40px auto 0;
+    cursor: pointer;
 }
 
 /* #region ---- Planning Section-Media-Query---- */
