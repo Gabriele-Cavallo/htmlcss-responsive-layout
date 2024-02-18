@@ -208,6 +208,12 @@ button a{
     font-size: 80px;
     margin-bottom: 20px;
 }
+.intro .anchor img{
+    max-height: 270px;
+    object-fit: contain;
+    position: absolute;
+    bottom: 0;
+}
 
 /* #region ---- Intro Section-Media-Query---- */
 
@@ -233,9 +239,11 @@ button a{
     .intro .col{
         width: 100%;
     }
-    .intro img{
+    .intro .anchor img{
         padding-top: 20px;
         margin: 0 auto;
+        display: block;
+        position: relative;
     }
     .intro .grow{
         padding-right: 0;
