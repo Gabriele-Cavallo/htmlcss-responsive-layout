@@ -231,7 +231,9 @@ button a{
         padding-top: 30px;
         display: block;
         position: relative;
-        left: -100px;
+    }
+    .intro .anchor{
+        width: 50%;
     }
     
 }
@@ -244,13 +246,15 @@ button a{
     }
     .intro .anchor img{
         margin: 0 auto;
-        left: 0;
     }
     .intro .grow{
         padding-right: 0;
     }
     .intro p{
         font-size: 20px;
+    }
+    .intro .anchor{
+        width: 100%;
     }
     
 }
